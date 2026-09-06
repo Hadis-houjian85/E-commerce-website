@@ -1,0 +1,145 @@
+/* --------------------- TopBar --------------------- */
+
+.topbar {
+    background-color: #591b75;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.div-free-topbar {
+    display: flex;
+    gap: 20px;
+}
+
+.div-right-topbar {
+    display: none;
+}
+
+/* --------------------- Navbar-Top --------------------- */
+.nav-top {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.div-searcch-navTop {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.input-search {
+    font-size: 15px;
+    padding: 6px;
+    width: 80%;
+    border: 1px solid rgb(180, 180, 180);
+    outline: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.858);
+}
+
+.icon-search-navTop {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.div-text-navTop {
+    display: none;
+}
+
+.div-icon-navTop {
+    padding-right: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.bg-primary {
+    height: 300px;
+}
+
+/* --------------------- Navbar-botton --------------------- */
+
+.nav-botton {
+    background-color: black;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+.navbar-brand {
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #591b75;
+}
+
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    /* --------------------- TopBar --------------------- */
+    .div-right-topbar {
+        display: block;
+    }
+
+    /* --------------------- Navbar-Top --------------------- */
+    .div-searcch-navTop {
+        width: 33%;
+    }
+
+    .input-search {
+        width: 60%;
+    }
+
+    .div-text-navTop {
+        display: block;
+        width: 33%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .text1 {
+        letter-spacing: 10px;
+        font-size: 17px;
+        color: white;
+    }
+
+    .text2 {
+        color: white;
+        word-spacing: 20px;
+        letter-spacing: 3px;
+        font-size: 8px;
+    }
+
+    .div-icon-navTop {
+        width: 33%;
+    }
+
+    .div-icon-navTop {
+        gap: 20px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
