@@ -89,7 +89,57 @@
     color: #591b75;
 }
 
+/* --------------------- Hero section --------------------- */
 
+.img-hero {
+    position: relative;
+}
+
+.btn-hero {
+    color: white;
+    background-color: #591b75;
+    position: absolute;
+    bottom: 8px;
+    left: 18px;
+
+    font-size: 5px;
+
+}
+
+.btn-hero:hover {
+    background-color: #421059;
+    color: white;
+}
+
+.btn-hero:focus {
+    background-color: #421059;
+    color: white;
+}
+
+
+
+
+@media (min-width: 420px) {
+
+    /* --------------------- Hero section --------------------- */
+    .btn-hero {
+        bottom: 10px;
+        left: 26px;
+        font-size: 8px;
+    }
+
+}
+
+@media (min-width: 500px) {
+
+    /* --------------------- Hero section --------------------- */
+    .btn-hero {
+        bottom: 17px;
+        left: 26px;
+        font-size: 9px;
+    }
+
+}
 
 @media (min-width: 576px) {}
 
@@ -136,10 +186,45 @@
     .div-icon-navTop {
         gap: 20px;
     }
+
+    /* --------------------- Hero section --------------------- */
+    .btn-hero {
+        bottom: 25px;
+        left: 42px;
+        font-size: 13px;
+    }
+
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
 
-@media (min-width: 1200px) {}
+    /* --------------------- Hero section --------------------- */
+    .btn-hero {
+        bottom: 35px;
+        left: 56px;
+        font-size: 15px;
+    }
 
-@media (min-width: 1400px) {}
+
+}
+
+@media (min-width: 1200px) {
+
+    /* --------------------- Hero section --------------------- */
+    .btn-hero {
+        bottom: 50px;
+        left: 70px;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    /* --------------------- Hero section --------------------- */
+    .btn-hero {
+        bottom: 57px;
+        left: 77px;
+        font-size: 20px;
+    }
+}
