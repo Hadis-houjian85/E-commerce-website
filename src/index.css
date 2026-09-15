@@ -159,6 +159,13 @@
     color: rgb(62, 62, 62);
 }
 
+/* --------------------- PromoBanner --------------------- */
+.img-promoBanner {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
 
 
 @media (min-width: 420px) {
@@ -208,6 +215,12 @@
         width: 80px;
         height: 80px;
     }
+
+    /* --------------------- PromoBanner --------------------- */
+    .img-promoBanner {
+        height: 120px;
+    }
+
 }
 
 @media (min-width: 768px) {
