@@ -163,10 +163,49 @@
 .img-promoBanner {
     width: 100%;
     height: 100px;
-    margin-top: 20px;
 }
 
+/* --------------------- popular products --------------------- */
 
+.title-popular {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text-title-popularProduct {
+    font-size: 17px;
+}
+
+.nav-popular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+    scrollbar-width: none;
+}
+
+.nav-popular::-webkit-scrollbar {
+    display: none;
+}
+
+.option-nav-popular {
+    flex-shrink: 0;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 7px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(72, 72, 72);
+}
+
+.option-nav-popular:focus {
+    background-color: #591b754d;
+    border-radius: 10px;
+    text-decoration: underline 4px #421059;
+}
 
 @media (min-width: 420px) {
 
@@ -298,6 +337,25 @@
         height: 100px;
     }
 
+
+    /* --------------------- popular products --------------------- */
+    .text-title-popularProduct {
+        font-size: 19px;
+    }
+
+    .nav-popular {
+        justify-content: center;
+        gap: 10px;
+        overflow-x: visible;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .option-nav-popular {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -324,6 +382,19 @@
     .img-Shop {
         width: 130px;
         height: 130px;
+    }
+
+    /* --------------------- popular products --------------------- */
+    .text-title-popularProduct {
+        font-size: 20px;
+    }
+
+    .nav-popular {
+        gap: 15px;
+    }
+
+    .option-nav-popular {
+        font-size: 15px;
     }
 
 

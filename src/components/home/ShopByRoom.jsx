@@ -34,7 +34,7 @@ export default function ShopByRoom() {
                     <div className="col-4 col-md-2 col-categori">
                         <div className="img-Shop"><Link><img src={DiningRoom} /></Link></div>
                         <p className="text-categori">Dining Room</p>
-                        <p className="text2-categori">14 product</p>
+                        <p className="text2-categori">7 product</p>
                     </div>
 
                     <div className="col-4 col-md-2 col-categori">
@@ -52,7 +52,7 @@ export default function ShopByRoom() {
                     <div className="col-4 col-md-2 col-categori">
                         <div className="img-Shop"><Link><img src={outDoor} /></Link></div>
                         <p className="text-categori">OutDoor</p>
-                        <p className="text2-categori">10 product</p>
+                        <p className="text2-categori">2 product</p>
                     </div>
                 </div>
             </div>
