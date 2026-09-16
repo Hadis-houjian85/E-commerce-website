@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
-
+import product from "../../data/Product"
 export default function PopularProducts() {
+
+    let productPopular = product.filter(function (item) {
+        return item.popular === true
+    })
 
     return (
         <>
@@ -17,7 +21,30 @@ export default function PopularProducts() {
                 <Link className="option-nav-popular">Storage</Link>
                 <Link className="option-nav-popular">outdoor</Link>
             </div>
+            <br></br>
 
+            <div className="container">
+                <div className="popular-products-overflow">
+                    <div className="row flex-nowrap">
+                        {productPopular.map((item) => {
+                            return (
+                                <div className="gx-4 gy-3 col-4 col-md-3 col-lg-2 text-center" key={item.id}>
+                                    <div className="div-popular-product">
+                                        <img src={item.image} className="img-popular" />
+                                        <p className="nameProduct-title-popular">{item.nameProduct}</p>
+                                        <p className="price-product-popular">price : {item.price}$</p>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </>
     )
 }

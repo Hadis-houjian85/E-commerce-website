@@ -187,10 +187,6 @@
     scrollbar-width: none;
 }
 
-.nav-popular::-webkit-scrollbar {
-    display: none;
-}
-
 .option-nav-popular {
     flex-shrink: 0;
     white-space: nowrap;
@@ -205,6 +201,53 @@
     background-color: #591b754d;
     border-radius: 10px;
     text-decoration: underline 4px #421059;
+}
+
+.popular-products-overflow {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+.div-popular-product {
+    background-color: #f4f2f3;
+    padding: 8px;
+}
+
+.img-popular {
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+    transform: scale(.6);
+}
+
+.nameProduct-title-popular {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.price-product-popular {
+    font-size: 11px;
+    margin-top: -8px;
+}
+
+
+@media (min-width: 300px) {
+
+    /* --------------------- popular products --------------------- */
+    .img-popular {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nameProduct-title-popular {
+        font-size: 8px;
+    }
+
+    .price-product-popular {
+        font-size: 10px;
+    }
+
 }
 
 @media (min-width: 420px) {
@@ -227,6 +270,19 @@
         font-size: 9px;
     }
 
+    /* --------------------- popular products --------------------- */
+    .img-popular {
+        width: 80px;
+        height: 80px;
+    }
+
+    .nameProduct-title-popular {
+        font-size: 12px;
+    }
+
+    .price-product-popular {
+        font-size:  12px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -259,6 +315,21 @@
     .img-promoBanner {
         height: 120px;
     }
+
+    /* --------------------- popular products --------------------- */
+    .img-popular {
+        width: 140px;
+        height: 140px;
+    }
+
+    .nameProduct-title-popular {
+        font-size: 15px;
+    }
+
+    .price-product-popular {
+        font-size: 15px;
+    }
+
 
 }
 
@@ -397,6 +468,19 @@
         font-size: 15px;
     }
 
+    /* --------------------- popular products --------------------- */
+    .img-popular {
+        width: 115px;
+        height: 115px;
+    }
+
+    .nameProduct-title-popular {
+        font-size: 14px;
+    }
+
+    .price-product-popular {
+        font-size: 14px;
+    }
 
 }
 

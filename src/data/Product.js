@@ -29,20 +29,20 @@ import offices3 from "../assets/offices3.png"
 import offices4 from "../assets/offices4.png"
 import storage1 from "../assets/storages1.png"
 import storage2 from "../assets/storage2.png"
-import storage3 from "../assets/3.png"
-import storage4 from "../assets/4torage2.png"
-import storage5 from "../assets/5torage2.png"
-import storage6 from "../assets/6torage2.png"
-import storage7 from "../assets/7torage2.png"
-import storage8 from "../assets/8torage2.png"
-import storage9 from "../assets/9torage2.png"
+import storage3 from "../assets/storage3.png"
+import storage4 from "../assets/storage4.png"
+import storage5 from "../assets/storage5.png"
+import storage6 from "../assets/storage6.png"
+import storage7 from "../assets/storage7.png"
+import storage8 from "../assets/storage8.png"
+import storage9 from "../assets/storage9.png"
 import outdoor1 from "../assets/out1.png"
 import outdoor2 from "../assets/out2.png"
 
 
 
 
-const products = [
+ const products = [
     {
         id: 1,
         category: "livin-room",
@@ -382,7 +382,7 @@ const products = [
         oldPrice: 1190,
         image: storage2,
         discription: "a modern and comfotable storage",
-        popular: false
+        popular: true
     },
     {
         id: 32,
@@ -484,4 +484,5 @@ const products = [
         popular: true
     },
 
-]
+];
+export default products;
