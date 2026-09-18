@@ -40,11 +40,6 @@ export default function PopularProducts() {
                     </div>
                 </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
         </>
     )
 }

@@ -281,7 +281,7 @@
     margin-top: px;
 }
 
-.btn-wish ,
+.btn-wish,
 .btn-cart {
     background-color: #421059;
     color: white;
@@ -297,11 +297,23 @@
 
 
 .btn-back {
-      background-color:#cecece ;
+    background-color: #cecece;
     color: black;
     margin-right: 20px;
     margin-top: 30px;
 }
+
+/* --------------------- services --------------------- */
+
+.services{
+    margin-top: 40px;
+}
+
+.img-service{
+    width: 100%;
+    height: 80px;
+}
+
 
 
 
