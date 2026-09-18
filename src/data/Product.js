@@ -42,7 +42,7 @@ import outdoor2 from "../assets/out2.png"
 
 
 
- const products = [
+const products = [
     {
         id: 1,
         category: "livin-room",
@@ -53,7 +53,8 @@ import outdoor2 from "../assets/out2.png"
         image: living1,
         discription: "a modern and comfotable sofa for your living room",
         popular: true,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 2,
@@ -65,7 +66,8 @@ import outdoor2 from "../assets/out2.png"
         image: living2,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 3,
@@ -77,7 +79,8 @@ import outdoor2 from "../assets/out2.png"
         image: living3,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 4,
@@ -89,7 +92,8 @@ import outdoor2 from "../assets/out2.png"
         image: living4,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 5,
@@ -101,7 +105,8 @@ import outdoor2 from "../assets/out2.png"
         image: living5,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 6,
@@ -113,7 +118,8 @@ import outdoor2 from "../assets/out2.png"
         image: living6,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 7,
@@ -125,7 +131,8 @@ import outdoor2 from "../assets/out2.png"
         image: living7,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 8,
@@ -137,7 +144,8 @@ import outdoor2 from "../assets/out2.png"
         image: living8,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 9,
@@ -149,7 +157,8 @@ import outdoor2 from "../assets/out2.png"
         image: living9,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 10,
@@ -161,7 +170,8 @@ import outdoor2 from "../assets/out2.png"
         image: living10,
         discription: "a modern and comfotable sofa for your living room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 11,
@@ -173,7 +183,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed1,
         discription: "a modern and comfotable bed for your bed room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 12,
@@ -185,7 +196,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed2,
         discription: "a modern and comfotable bed for your bed room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 13,
@@ -197,7 +209,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed3,
         discription: "a modern and comfotable bed for your bed room",
         popular: true,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 14,
@@ -209,7 +222,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed4,
         discription: "a modern and comfotable bed for your bed room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 15,
@@ -221,7 +235,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed5,
         discription: "a modern and comfotable bed for your bed room",
         popular: false,
-        discount:true
+        discount: true,
+        quantity: 0
     },
     {
         id: 16,
@@ -233,7 +248,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed6,
         discription: "a modern and comfotable bed for your bed room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 17,
@@ -245,7 +261,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed7,
         discription: "a modern and comfotable bed for your bed room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 18,
@@ -257,7 +274,8 @@ import outdoor2 from "../assets/out2.png"
         image: bed8,
         discription: "a modern and comfotable bed for your bed room",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 19,
@@ -269,7 +287,8 @@ import outdoor2 from "../assets/out2.png"
         image: table1,
         discription: "a modern and comfotable table ",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 20,
@@ -281,7 +300,8 @@ import outdoor2 from "../assets/out2.png"
         image: table2,
         discription: "a modern and comfotable table",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 21,
@@ -293,7 +313,8 @@ import outdoor2 from "../assets/out2.png"
         image: table3,
         discription: "a modern and comfotable table",
         popular: true,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 22,
@@ -305,7 +326,8 @@ import outdoor2 from "../assets/out2.png"
         image: table4,
         discription: "a modern and comfotable table",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 23,
@@ -317,7 +339,8 @@ import outdoor2 from "../assets/out2.png"
         image: table5,
         discription: "a modern and comfotable table",
         popular: false,
-        discount:true
+        discount: true,
+        quantity: 0
     },
     {
         id: 24,
@@ -329,7 +352,8 @@ import outdoor2 from "../assets/out2.png"
         image: table6,
         discription: "a modern and comfotable table",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 25,
@@ -341,7 +365,8 @@ import outdoor2 from "../assets/out2.png"
         image: table7,
         discription: "a modern and comfotable table",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 26,
@@ -353,7 +378,8 @@ import outdoor2 from "../assets/out2.png"
         image: offices1,
         discription: "a modern and comfotable office",
         popular: false,
-        discount:true
+        discount: true,
+        quantity: 0
     },
     {
         id: 27,
@@ -365,7 +391,8 @@ import outdoor2 from "../assets/out2.png"
         image: offices2,
         discription: "a modern and comfotable office",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 28,
@@ -377,7 +404,8 @@ import outdoor2 from "../assets/out2.png"
         image: offices3,
         discription: "a modern and comfotable office",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 29,
@@ -389,7 +417,8 @@ import outdoor2 from "../assets/out2.png"
         image: offices4,
         discription: "a modern and comfotable office",
         popular: true,
-        discount:true
+        discount: true,
+        quantity: 0
     },
     {
         id: 30,
@@ -401,7 +430,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage1,
         discription: "a modern and comfotable storage",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 31,
@@ -413,7 +443,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage2,
         discription: "a modern and comfotable storage",
         popular: true,
-        discount:true
+        discount: true,
+        quantity: 0
     },
     {
         id: 32,
@@ -425,7 +456,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage3,
         discription: "a modern and comfotable storage",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 33,
@@ -437,7 +469,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage4,
         discription: "a modern and comfotable storage",
         popular: true,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 34,
@@ -449,7 +482,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage5,
         discription: "a modern and comfotable storage",
         popular: false,
-        discount:true
+        discount: true,
+        quantity: 0
     },
     {
         id: 35,
@@ -461,7 +495,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage6,
         discription: "a modern and comfotable storage",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 36,
@@ -473,7 +508,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage7,
         discription: "a modern and comfotable storage",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 37,
@@ -485,7 +521,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage8,
         discription: "a modern and comfotable storage",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 38,
@@ -497,7 +534,8 @@ import outdoor2 from "../assets/out2.png"
         image: storage9,
         discription: "a modern and comfotable storage",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 39,
@@ -509,7 +547,8 @@ import outdoor2 from "../assets/out2.png"
         image: outdoor1,
         discription: "a modern and comfotable outdoor",
         popular: false,
-        discount:false
+        discount: false,
+        quantity: 0
     },
     {
         id: 40,
@@ -521,7 +560,8 @@ import outdoor2 from "../assets/out2.png"
         image: outdoor2,
         discription: "a modern and comfotable outdoor",
         popular: true,
-        discount:true
+        discount: true,
+        quantity: 0
     },
 
 ];

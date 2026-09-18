@@ -1,6 +1,7 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import products from "../data/Product";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { CartContext } from "../context/CartContext";
 
 export default function ProductDetails() {
     const { slug } = useParams();
@@ -12,10 +13,12 @@ export default function ProductDetails() {
         navigate(-1);
     }
 
-    // Disable for cart
-    const [disabled, setDisabled] = useState(false);
-    // Disable for wish 
-    const [disabledWish, setDisabledWish] = useState(false);
+    // use context
+    const {addToCart} = useContext(CartContext);
+
+
+
+
 
     return (
         <>
@@ -31,8 +34,8 @@ export default function ProductDetails() {
                 </div>
 
                 <div>
-                    <button className="btn btn-wish" disabled={disabledWish} onClick={() => setDisabledWish(true)} > wish</button>
-                    <button className="btn btn-cart" disabled={disabled} onClick={() => setDisabled(true)}> add to cart </button>
+                    <button className="btn btn-wish" > wish</button>
+                    <button className="btn btn-cart" onClick={() =>addToCart(Thisproduct)}> add to cart </button>
                     <button className="btn btn-back" onClick={navigation} > back </button>
                 </div>
             </div>

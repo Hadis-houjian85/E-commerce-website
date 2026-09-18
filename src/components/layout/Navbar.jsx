@@ -18,9 +18,9 @@ export default function Navbar() {
                 </div>
 
                 <div className="div-icon-navTop">
-                    <i className="fa-solid fa-user"></i>
-                    <i className="fa-solid fa-heart"></i>
-                    <i className="fa-solid fa-cart-shopping"></i>
+                    <Link style={{color:"white"}}> <i className="fa-solid fa-user"></i></Link>
+                    <Link style={{color:"white"}}>  <i className="fa-solid fa-heart"></i></Link>
+                    <Link style={{color:"white"}} to="/cart">  <i className="fa-solid fa-cart-shopping"></i></Link>
                 </div>
 
             </div>
