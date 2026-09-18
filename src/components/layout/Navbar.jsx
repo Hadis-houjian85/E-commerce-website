@@ -43,7 +43,7 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse nav-menu" id="mainNavbar">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <Link to="" className="nav-link">
+                                <Link to="/producs" className="nav-link">
                                     Products
                                 </Link>
                             </li>

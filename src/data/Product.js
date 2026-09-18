@@ -46,7 +46,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 1,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa1",
         nameProduct: "Modern Sofa",
         price: 900,
         oldPrice: 1000,
@@ -57,7 +57,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 2,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa2",
         nameProduct: "Modern Sofa",
         price: 940,
         oldPrice: 1000,
@@ -68,7 +68,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 3,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa3",
         nameProduct: "Modern Sofa",
         price: 970,
         oldPrice: 1100,
@@ -79,7 +79,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 4,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa4",
         nameProduct: "Modern Sofa",
         price: 990,
         oldPrice: 1130,
@@ -90,7 +90,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 5,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa5",
         nameProduct: "Modern Sofa",
         price: 902,
         oldPrice: 999,
@@ -101,7 +101,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 6,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa6",
         nameProduct: "Modern Sofa",
         price: 870,
         oldPrice: 1033,
@@ -112,7 +112,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 7,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa7",
         nameProduct: "Modern Sofa",
         price: 940,
         oldPrice: 1050,
@@ -123,7 +123,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 8,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa8",
         nameProduct: "Modern Sofa",
         price: 910,
         oldPrice: 1010,
@@ -134,7 +134,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 9,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa9",
         nameProduct: "Modern Sofa",
         price: 907,
         oldPrice: 1070,
@@ -145,7 +145,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 10,
         category: "livin-room",
-        slug: "Modern-sofa",
+        slug: "Modern-sofa10",
         nameProduct: "Modern Sofa",
         price: 940,
         oldPrice: 1000,
@@ -156,7 +156,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 11,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed1",
         nameProduct: "Modern bed",
         price: 1800,
         oldPrice: 2000,
@@ -167,7 +167,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 12,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed2",
         nameProduct: "Modern bed",
         price: 2000,
         oldPrice: 2400,
@@ -178,7 +178,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 13,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed3",
         nameProduct: "Modern bed",
         price: 1089,
         oldPrice: 1990,
@@ -189,7 +189,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 14,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed4",
         nameProduct: "Modern bed",
         price: 1980,
         oldPrice: 2500,
@@ -200,7 +200,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 15,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed5",
         nameProduct: "Modern bed",
         price: 1940,
         oldPrice: 2090,
@@ -211,7 +211,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 16,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed6",
         nameProduct: "Modern bed",
         price: 1360,
         oldPrice: 2004,
@@ -222,7 +222,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 17,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed7",
         nameProduct: "Modern bed",
         price: 1900,
         oldPrice: 2100,
@@ -233,7 +233,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 18,
         category: "bed-room",
-        slug: "Modern-bed",
+        slug: "Modern-bed8",
         nameProduct: "Modern bed",
         price: 1712,
         oldPrice: 2300,
@@ -244,7 +244,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 19,
         category: "table",
-        slug: "Modern-table",
+        slug: "Modern-table1",
         nameProduct: "Modern table",
         price: 1312,
         oldPrice: 1500,
@@ -255,7 +255,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 20,
         category: "table",
-        slug: "Modern-table",
+        slug: "Modern-table2",
         nameProduct: "Modern table",
         price: 1712,
         oldPrice: 2300,
@@ -266,7 +266,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 21,
         category: "table",
-        slug: "Modern-table",
+        slug: "Modern-table3",
         nameProduct: "Modern table",
         price: 1412,
         oldPrice: 1500,
@@ -277,7 +277,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 22,
         category: "table",
-        slug: "Modern-table",
+        slug: "Modern-table4",
         nameProduct: "Modern table",
         price: 1100,
         oldPrice: 1450,
@@ -288,7 +288,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 23,
         category: "table",
-        slug: "Modern-table",
+        slug: "Modern-table5",
         nameProduct: "Modern table",
         price: 1162,
         oldPrice: 1700,
@@ -299,7 +299,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 24,
         category: "table",
-        slug: "Modern-table",
+        slug: "Modern-table6",
         nameProduct: "Modern table",
         price: 1000,
         oldPrice: 1300,
@@ -310,7 +310,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 25,
         category: "table",
-        slug: "Modern-table",
+        slug: "Modern-table7",
         nameProduct: "Modern table",
         price: 1240,
         oldPrice: 1520,
@@ -321,7 +321,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 26,
         category: "office",
-        slug: "Modern-office",
+        slug: "Modern-office1",
         nameProduct: "Modern office",
         price: 800,
         oldPrice: 1000,
@@ -332,7 +332,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 27,
         category: "office",
-        slug: "Modern-office",
+        slug: "Modern-office2",
         nameProduct: "Modern office",
         price: 999,
         oldPrice: 1000,
@@ -343,7 +343,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 28,
         category: "office",
-        slug: "Modern-office",
+        slug: "Modern-office3",
         nameProduct: "Modern office",
         price: 940,
         oldPrice: 1000,
@@ -354,7 +354,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 29,
         category: "office",
-        slug: "Modern-office",
+        slug: "Modern-office4",
         nameProduct: "Modern office",
         price: 1014,
         oldPrice: 1120,
@@ -365,7 +365,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 30,
         categostorage: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage1",
         nameProduct: "Modern storage",
         price: 1000,
         oldPrice: 1120,
@@ -376,7 +376,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 31,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage2",
         nameProduct: "Modern storage",
         price: 1019,
         oldPrice: 1190,
@@ -387,7 +387,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 32,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage3",
         nameProduct: "Modern storage",
         price: 1224,
         oldPrice: 1340,
@@ -398,7 +398,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 33,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage4",
         nameProduct: "Modern storage",
         price: 998,
         oldPrice: 1120,
@@ -409,7 +409,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 34,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage5",
         nameProduct: "Modern storage",
         price: 1114,
         oldPrice: 1320,
@@ -420,7 +420,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 35,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage6",
         nameProduct: "Modern storage",
         price: 1233,
         oldPrice: 1340,
@@ -431,7 +431,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 36,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage7",
         nameProduct: "Modern storage",
         price: 1300,
         oldPrice: 1620,
@@ -442,7 +442,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 37,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage8",
         nameProduct: "Modern storage",
         price: 1000,
         oldPrice: 1400,
@@ -453,7 +453,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 38,
         category: "storage",
-        slug: "Modern-storage",
+        slug: "Modern-storage9",
         nameProduct: "Modern storage",
         price: 899,
         oldPrice: 1000,
@@ -464,7 +464,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 39,
         category: "outdoor",
-        slug: "Modern-outdoor",
+        slug: "Modern-outdoor1",
         nameProduct: "Modern outdoor",
         price: 1000,
         oldPrice: 1200,
@@ -475,7 +475,7 @@ import outdoor2 from "../assets/out2.png"
     {
         id: 40,
         category: "outdoor",
-        slug: "Modern-outdoor",
+        slug: "Modern-outdoor2",
         nameProduct: "Modern outdoor",
         price: 978,
         oldPrice: 1044,

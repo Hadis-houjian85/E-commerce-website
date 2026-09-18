@@ -231,6 +231,80 @@
     margin-top: -8px;
 }
 
+/* --------------------- All-products --------------------- */
+.All-products {
+    background-color: #591b754d;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-AllProducs {
+    width: 70px;
+    height: 70px;
+}
+
+.name-AllProducs {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.price-AllProducs {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.detail-AllProducs {
+    color: #421059;
+    font-size: 14px;
+
+}
+
+/* --------------------- products-Details --------------------- */
+.img-details {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.name-detail {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.discription-detail {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.price-detail {
+    font-size: 20px;
+    margin-top: px;
+}
+
+.btn-wish ,
+.btn-cart {
+    background-color: #421059;
+    color: white;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.btn-wish:hover,
+.btn-cart:hover {
+    background-color: #240233;
+    color: white;
+}
+
+
+.btn-back {
+      background-color:#cecece ;
+    color: black;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+
+
 
 @media (min-width: 300px) {
 
@@ -281,7 +355,7 @@
     }
 
     .price-product-popular {
-        font-size:  12px;
+        font-size: 12px;
     }
 }
 
@@ -329,6 +403,23 @@
     .price-product-popular {
         font-size: 15px;
     }
+
+    /* --------------------- All-products --------------------- */
+    .img-AllProducs {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name-AllProducs {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .price-AllProducs {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
 
 
 }
@@ -427,6 +518,22 @@
         font-size: 14px;
     }
 
+    /* --------------------- All-products --------------------- */
+    .img-AllProducs {
+        width: 110px;
+        height: 110px;
+    }
+
+    .name-AllProducs {
+        font-size: 17px;
+        margin-top: 17px;
+    }
+
+    .price-AllProducs {
+        font-size: 17px;
+        margin-top: 17px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -482,6 +589,21 @@
         font-size: 14px;
     }
 
+    /* --------------------- All-products --------------------- */
+    .img-AllProducs {
+        width: 90px;
+        height: 90px;
+    }
+
+    .name-AllProducs {
+        font-size: 15px;
+        margin-top: 14px;
+    }
+
+    .price-AllProducs {
+        font-size: 15px;
+        margin-top: 14px;
+    }
 }
 
 @media (min-width: 1200px) {
