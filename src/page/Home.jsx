@@ -1,3 +1,4 @@
+import DealOfTheWeek from "../components/home/DealOfTheWeek";
 import Hero from "../components/home/Hero";
 import PopularProducts from "../components/home/PopularProducts";
 import PromoBanner from "../components/home/PromoBanner";
@@ -12,6 +13,7 @@ export default function Home(){
             <PromoBanner/>
             <PopularProducts/>
             <Services/>
+            <DealOfTheWeek/>
         </>
     )
 }
