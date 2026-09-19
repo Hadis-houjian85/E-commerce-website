@@ -2,6 +2,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import products from "../data/Product";
 import { useContext, useState } from "react";
 import { CartContext } from "../context/CartContext";
+import { WishContext} from "../context/WishlistContext";
 
 export default function ProductDetails() {
     const { slug } = useParams();
@@ -14,8 +15,8 @@ export default function ProductDetails() {
     }
 
     // use context
-    const {addToCart} = useContext(CartContext);
-
+    const { addToCart } = useContext(CartContext);
+    const { addToWish } = useContext(WishContext)
 
 
 
@@ -34,8 +35,8 @@ export default function ProductDetails() {
                 </div>
 
                 <div>
-                    <button className="btn btn-wish" > wish</button>
-                    <button className="btn btn-cart" onClick={() =>addToCart(Thisproduct)}> add to cart </button>
+                    <button className="btn btn-wish" onClick={() => addToWish(Thisproduct)} > wish</button>
+                    <button className="btn btn-cart" onClick={() => addToCart(Thisproduct)}> add to cart </button>
                     <button className="btn btn-back" onClick={navigation} > back </button>
                 </div>
             </div>
