@@ -422,12 +422,12 @@
 }
 
 /* ----------------------- wish product --------------------- */
-.div-title-wish{
+.div-title-wish {
     display: flex;
     justify-content: center;
 }
 
-.title-wish{
+.title-wish {
     font-size: 20px;
     background-color: #591b75d4;
     color: white;
@@ -473,6 +473,152 @@
 
 }
 
+/* --------------------- Login --------------------- */
+.login {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-main {
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+    background-color: #591b757c;
+    border-radius: 20px;
+}
+
+.input-login {
+    width: 91%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(93, 93, 93);
+    padding: 6px;
+    padding-left: 15px;
+}
+
+.input-login:focus {
+    outline: none;
+}
+
+.text-login {
+    font-size: 13px;
+}
+
+/* =========================Register=========================  */
+.register {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.register-main {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 25px;
+    background-color: #591b757c;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.register-main h2 {
+    margin-bottom: 30px;
+}
+
+.register-field {
+    width: 100%;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+
+.register-field label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input-register {
+    width: 100%;
+    padding: 11px 14px;
+    border: 2px solid rgb(93, 93, 93);
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.input-register:focus {
+    border-color: #8e44ad;
+    box-shadow: 0 0 0 3px rgba(142, 68, 173, 0.2);
+}
+
+.input-register:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.error-register {
+    margin: 10px 0 15px;
+    color: #ff6b6b;
+    font-size: 13px;
+    text-align: center;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 11px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8e44ad;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.btn-register:hover {
+    background-color: #76368f;
+    transform: translateY(-1px);
+}
+
+
+.btn-register:active {
+    transform: translateY(0);
+}
+
+
+.btn-register:disabled {
+    opacity: 0.6;
+    cursor: not - allowed;
+    transform: none;
+}
+
+.text-register {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+
+.text-register a {
+    margin-left: 5px;
+    color: #d9a7ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.text-register a:hover {
+    text-decoration: underline;
+}
 
 
 @media (min-width: 300px) {
@@ -524,6 +670,20 @@
     }
 
     .details-product {
+        font-size: 14px;
+    }
+
+    /* --------------------- Login --------------------- */
+    .login-main {
+        width: 70%;
+        padding: 20px;
+    }
+
+    .input-login {
+        width: 80%;
+    }
+
+    .text-login {
         font-size: 14px;
     }
 
@@ -647,6 +807,29 @@
     .p-Deal {
         font-size: 16px;
     }
+
+    /* --------------------- Login --------------------- */
+    .login-main {
+        width: 70%;
+    }
+
+    .input-login {
+        width: 70%;
+    }
+
+    .text-login {
+        font-size: 13px;
+    }
+
+    /* =========================Register=========================  */
+    .register {
+        margin-top: 90px;
+    }
+
+    .register-main {
+        padding: 35px 30px;
+    }
+
 
 }
 
@@ -784,6 +967,31 @@
         font-size: 14px;
         width: 85px;
     }
+
+    /* --------------------- Login --------------------- */
+    .login-main {
+        width: 60%;
+    }
+
+    .input-login {
+        width: 67%;
+    }
+
+    .text-login {
+        font-size: 14px;
+    }
+
+    /* =========================Register=========================  */
+    .register {
+        margin-top: 100px;
+    }
+
+    .register-main {
+        max-width: 550px;
+        padding: 40px 35px;
+    }
+
+
 }
 
 @media (min-width: 992px) {
@@ -868,6 +1076,27 @@
         font-size: 15px;
     }
 
+    /* --------------------- Login --------------------- */
+    .login-main {
+        width: 40%;
+    }
+
+    .input-login {
+        width: 65%;
+    }
+
+    .text-login {
+        font-size: 15px;
+    }
+
+    /* =========================Register=========================  */
+    .register {
+        margin-top: 110px;
+    }
+
+    .register-main {
+        max-width: 600px;
+    }
 
 }
 

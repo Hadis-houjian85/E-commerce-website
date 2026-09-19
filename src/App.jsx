@@ -8,6 +8,8 @@ import { CartProvider } from './context/CartContext';
 import Cart from './page/Cart';
 import { WishProvider } from './context/WishlistContext';
 import Wishlist from './page/Wishlist';
+import LoginPage from './page/LoginPage';
+import Register from './components/account/Register';
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
             <Route path='/producsDetails/:slug' element={<ProductDetails />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/wish' element={<Wishlist />} />
+            <Route path='/login' element={<LoginPage />} />
+            <Route path='/register' element={<Register/>} />
           </Routes>
         </WishProvider>
       </CartProvider>
