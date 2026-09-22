@@ -1,6 +1,19 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+
+    const [search , setsearch] = useState("")
+
+    const handleSearch = (e)=>{
+        if(!search.trim()){
+            return
+        }
+
+       window.find(search) 
+    }
+
+
     return (
         <div className="container">
 
@@ -8,8 +21,8 @@ export default function Navbar() {
             <div className="nav-top">
 
                 <div className="div-searcch-navTop">
-                    <input placeholder="search product... " className="input-search" />
-                    <i className="fa-solid fa-magnifying-glass icon-search-navTop"></i>
+                    <input placeholder="search product... " className="input-search" onChange={(e)=>setsearch(e.target.value)}/>
+                    <i className="fa-solid fa-magnifying-glass icon-search-navTop" onClick={handleSearch}></i>
                 </div>
 
                 <div className="div-text-navTop">
