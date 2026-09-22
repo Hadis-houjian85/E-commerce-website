@@ -13,13 +13,13 @@ export default function PopularProducts() {
             </div>
 
             <div className="nav-popular">
-                <Link className="option-nav-popular">All</Link>
-                <Link className="option-nav-popular">living room</Link>
-                <Link className="option-nav-popular">Bedroom</Link>
-                <Link className="option-nav-popular">Dining room</Link>
-                <Link className="option-nav-popular">Office</Link>
-                <Link className="option-nav-popular">Storage</Link>
-                <Link className="option-nav-popular">outdoor</Link>
+                <Link className="option-nav-popular" to="/producs">All</Link>
+                <Link className="option-nav-popular" to="/producs?category=livin-room">living room</Link>
+                <Link className="option-nav-popular" to="/producs?category=bed-room">Bedroom</Link>
+                <Link className="option-nav-popular" to="/producs?category=table">Dining room</Link>
+                <Link className="option-nav-popular" to="/producs?category=office">Office</Link>
+                <Link className="option-nav-popular" to="/producs?category=storage">Storage</Link>
+                <Link className="option-nav-popular" to="/producs?category=outdoor">outdoor</Link>
             </div>
             <br></br>
 

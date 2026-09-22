@@ -620,6 +620,62 @@
     text-decoration: underline;
 }
 
+/* --------------------- payment --------------------- */
+
+.div-PaymentGateway {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.PaymentGatewayButton {
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #581971a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    font-size: 16px;
+}
+
+.btn-pay {
+    background-color: rgba(255, 255, 255, 0.608);
+    color: #240233;
+}
+
+.btn-pay:focus {
+    background-color: rgba(255, 255, 255, 0.608);
+    color: #240233;
+}
+
+/* --------------------- checkout --------------------- */
+
+.div-checkout {
+    background-color: #591b75ea;
+    padding: 20px;
+    margin-top: 30px;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+}
+
+.chechout {
+    color: white;
+}
+
+.product-checkout {
+    display: flex;
+    gap: 20px;
+}
+
+.inputChechout {
+    border: 2px solid rgb(80, 80, 80);
+    font-size: 14px;
+    padding: 3px;
+    outline: none;
+    border-radius: 7px;
+}
+
 
 @media (min-width: 300px) {
 
@@ -734,6 +790,13 @@
         margin-top: -9px;
     }
 
+    /* --------------------- checkout --------------------- */
+
+    .div-checkout {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
 
 
 }
@@ -829,6 +892,22 @@
     .register-main {
         padding: 35px 30px;
     }
+
+    /* --------------------- payment --------------------- */
+
+    .div-PaymentGateway {
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    /* --------------------- checkout --------------------- */
+
+    .div-checkout {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
 
 
 }
@@ -991,6 +1070,15 @@
         padding: 40px 35px;
     }
 
+    /* --------------------- checkout --------------------- */
+
+    .div-checkout {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+
 
 }
 
@@ -1098,6 +1186,21 @@
         max-width: 600px;
     }
 
+    /* --------------------- payment --------------------- */
+
+    .div-PaymentGateway {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    /* --------------------- checkout --------------------- */
+
+    .div-checkout {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -1115,6 +1218,14 @@
         height: 150px;
     }
 
+    /* --------------------- checkout --------------------- */
+
+    .div-checkout {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media (min-width: 1400px) {
@@ -1125,4 +1236,5 @@
         left: 77px;
         font-size: 20px;
     }
+
 }

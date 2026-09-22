@@ -6,9 +6,7 @@ export default function Register() {
 
     const navigate = useNavigate();
 
-    // =========================
-    // States
-    // =========================
+    // ========================= States =========================
 
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
@@ -20,9 +18,7 @@ export default function Register() {
     const [errorText, setErrorText] = useState("");
     const [loading, setLoading] = useState(false);
 
-    // =========================
-    // Register
-    // =========================
+    // ========================= Register =========================
 
     const handleRegister = async (e) => {
 
@@ -30,47 +26,28 @@ export default function Register() {
 
         setErrorText("");
 
-        // -------------------------
-        // Required fields
-        // -------------------------
+        // ------------------------- Required fields -------------------------
 
-        if (
-            !firstName ||
-            !lastName ||
-            !phone ||
-            !email ||
-            !password ||
-            !confirmPassword
-        ) {
+        if (!firstName || !lastName || !phone || !email || !password || !confirmPassword) {
             setErrorText("لطفاً تمام فیلدها را پر کنید.");
             return;
         }
 
-        // -------------------------
-        // Phone validation
-        // -------------------------
+        // ------------------------- Phone validation -------------------------
 
         if (!/^09\d{9}$/.test(phone)) {
-            setErrorText(
-                "شماره تلفن باید 11 رقم باشد و با 09 شروع شود."
-            );
+            setErrorText("شماره تلفن باید 11 رقم باشد و با 09 شروع شود.");
             return;
         }
 
-        // -------------------------
-        // Email validation
-        // -------------------------
+        // ------------------------- Email validation -------------------------
 
-        if (
-            !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-        ) {
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
             setErrorText("لطفاً یک ایمیل معتبر وارد کنید.");
             return;
         }
 
-        // -------------------------
-        // Password validation
-        // -------------------------
+        // ------------------------- Password validation -------------------------
 
         if (password.length < 8) {
             setErrorText(
@@ -79,9 +56,7 @@ export default function Register() {
             return;
         }
 
-        // -------------------------
-        // Confirm password
-        // -------------------------
+        // ------------------------- Confirm password -------------------------
 
         if (password !== confirmPassword) {
             setErrorText(
@@ -90,17 +65,13 @@ export default function Register() {
             return;
         }
 
-        // -------------------------
-        // Loading
-        // -------------------------
+        // ------------------------- Loading -------------------------
 
         setLoading(true);
 
         try {
 
-            // -------------------------
-            // Backend request
-            // -------------------------
+            // ------------------------- Backend request -------------------------
 
             const response = await fetch(
                 "http://localhost:5000/api/auth/register",
@@ -123,24 +94,17 @@ export default function Register() {
 
             const data = await response.json();
 
-            // -------------------------
-            // Backend error
-            // -------------------------
+            // ------------------------- Backend error -------------------------
 
             if (!response.ok) {
-
                 setErrorText(
                     data.message ||
                     "ثبت نام انجام نشد."
                 );
-
                 return;
             }
 
-            // -------------------------
-            // Register successful
-            // -------------------------
-
+            // ------------------------- Register successful -------------------------
             console.log(
                 "Register successful:",
                 data
@@ -148,7 +112,6 @@ export default function Register() {
 
             // اگر بک‌اند بعد از ثبت‌نام token بدهد
             if (data.token) {
-
                 localStorage.setItem(
                     "token",
                     data.token
@@ -161,9 +124,7 @@ export default function Register() {
                         JSON.stringify(data.user)
                     );
                 }
-
                 navigate("/");
-
                 return;
             }
 
@@ -188,38 +149,20 @@ export default function Register() {
         }
     };
 
-
     return (
 
         <div className="container register">
 
-            <form
-                className="register-main"
-                onSubmit={handleRegister}
-            >
+            <form className="register-main" onSubmit={handleRegister} >
 
-                {/* Title */}
-
-                <h2>
-                    Create Account
-                </h2>
-
-
-                {/* First Name */}
+                <h2> Create Account </h2>
 
                 <div className="register-field">
 
-                    <label htmlFor="firstName">
-                        First name
-                    </label>
+                    <label htmlFor="firstName"> First name </label>
 
-                    <input
-                        className="input-register"
-                        id="firstName"
-                        type="text"
-                        placeholder="Enter your first name"
-                        value={firstName}
-                        onChange={(e) => {
+                    <input className="input-register" id="firstName" type="text" placeholder="Enter your first name"
+                        value={firstName} onChange={(e) => {
                             setFirstName(e.target.value);
                             setErrorText("");
                         }}
@@ -228,21 +171,10 @@ export default function Register() {
 
                 </div>
 
-
-                {/* Last Name */}
-
                 <div className="register-field">
+                    <label htmlFor="lastName"> Last name </label>
 
-                    <label htmlFor="lastName">
-                        Last name
-                    </label>
-
-                    <input
-                        className="input-register"
-                        id="lastName"
-                        type="text"
-                        placeholder="Enter your last name"
-                        value={lastName}
+                    <input className="input-register" id="lastName" type="text" placeholder="Enter your last name" value={lastName}
                         onChange={(e) => {
                             setLastName(e.target.value);
                             setErrorText("");
@@ -252,21 +184,10 @@ export default function Register() {
 
                 </div>
 
-
-                {/* Phone */}
-
                 <div className="register-field">
 
-                    <label htmlFor="phone">
-                        Phone number
-                    </label>
-
-                    <input
-                        className="input-register"
-                        id="phone"
-                        type="tel"
-                        placeholder="09123456789"
-                        value={phone}
+                    <label htmlFor="phone"> Phone number </label>
+                    <input className="input-register" id="phone" type="tel" placeholder="09123456789" value={phone}
                         onChange={(e) => {
                             setPhone(e.target.value);
                             setErrorText("");
@@ -276,21 +197,11 @@ export default function Register() {
 
                 </div>
 
-
-                {/* Email */}
-
                 <div className="register-field">
 
-                    <label htmlFor="email">
-                        Email
-                    </label>
+                    <label htmlFor="email"> Email</label>
 
-                    <input
-                        className="input-register"
-                        id="email"
-                        type="email"
-                        placeholder="example@gmail.com"
-                        value={email}
+                    <input className="input-register" id="email" type="email" placeholder="example@gmail.com" value={email}
                         onChange={(e) => {
                             setEmail(e.target.value);
                             setErrorText("");
@@ -300,56 +211,31 @@ export default function Register() {
 
                 </div>
 
-
-                {/* Password */}
-
                 <div className="register-field">
 
-                    <label htmlFor="password">
-                        Password
-                    </label>
+                    <label htmlFor="password"> Password </label>
 
-                    <input
-                        className="input-register"
-                        id="password"
-                        type="password"
-                        placeholder="Enter your password"
-                        value={password}
+                    <input className="input-register" id="password" type="password" placeholder="Enter your password" value={password}
                         onChange={(e) => {
                             setPassword(e.target.value);
                             setErrorText("");
                         }}
                         disabled={loading}
                     />
-
                 </div>
-
-
-                {/* Confirm Password */}
 
                 <div className="register-field">
 
-                    <label htmlFor="confirmPassword">
-                        Confirm password
-                    </label>
+                    <label htmlFor="confirmPassword"> Confirm password </label>
 
-                    <input
-                        className="input-register"
-                        id="confirmPassword"
-                        type="password"
-                        placeholder="Repeat your password"
-                        value={confirmPassword}
+                    <input className="input-register" id="confirmPassword" type="password" placeholder="Repeat your password" value={confirmPassword}
                         onChange={(e) => {
                             setConfirmPassword(e.target.value);
                             setErrorText("");
                         }}
                         disabled={loading}
                     />
-
                 </div>
-
-
-                {/* Error */}
 
                 {errorText && (
                     <p className="error-register">
@@ -357,40 +243,14 @@ export default function Register() {
                     </p>
                 )}
 
-
-                {/* Register Button */}
-
                 <button
-                    className="btn-register"
-                    type="submit"
-                    disabled={loading}
-                >
-
-                    {loading
-                        ? "Creating account..."
-                        : "Create Account"
-                    }
-
+                    className="btn-register" type="submit" disabled={loading}>
+                    {loading ? "Creating account..." : "Create Account"}
                 </button>
 
-
-                {/* Login Link */}
-
-                <p className="text-register">
-
-                    Already have an account?
-
-                    <Link to="/login">
-                        Login
-                    </Link>
-
-                </p>
+                <p className="text-register"> Already have an account? <Link to="/login"> Login</Link> </p>
 
             </form>
-
         </div>
     );
 }
-
-
-   

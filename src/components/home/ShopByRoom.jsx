@@ -20,37 +20,37 @@ export default function ShopByRoom() {
 
                 <div className="row gx-3 gy-1">
                     <div className="col-4 col-md-2 col-categori">
-                        <div className="img-Shop"><Link><img src={LivingRoom} /></Link></div>
+                        <div className="img-Shop"><Link to="/producs?category=livin-room"><img src={LivingRoom} /></Link></div>
                         <p className="text-categori">Living Room</p>
                         <p className="text2-categori">10 product</p>
                     </div>
 
                     <div className="col-4 col-md-2 col-categori">
-                        <div className="img-Shop"><Link><img src={bedRoom} /></Link></div>
+                        <div className="img-Shop"><Link to="/producs?category=bed-room"><img src={bedRoom} /></Link></div>
                         <p className="text-categori">bed Room</p>
                         <p className="text2-categori">8 product</p>
                     </div>
 
                     <div className="col-4 col-md-2 col-categori">
-                        <div className="img-Shop"><Link><img src={DiningRoom} /></Link></div>
+                        <div className="img-Shop"><Link to="/producs?category=table"><img src={DiningRoom} /></Link></div>
                         <p className="text-categori">Dining Room</p>
                         <p className="text2-categori">7 product</p>
                     </div>
 
                     <div className="col-4 col-md-2 col-categori">
-                        <div className="img-Shop"><Link><img src={Office} /></Link></div>
+                        <div className="img-Shop"><Link to="/producs?category=office"><img src={Office} /></Link></div>
                         <p className="text-categori">Office</p>
                         <p className="text2-categori">4 product</p>
                     </div>
 
                     <div className="col-4 col-md-2 col-categori">
-                        <div className="img-Shop"><Link><img src={storage} /></Link></div>
+                        <div className="img-Shop"><Link to="/producs?category=storage"><img src={storage} /></Link></div>
                         <p className="text-categori">Storage</p>
                         <p className="text2-categori">9 product</p>
                     </div>
 
                     <div className="col-4 col-md-2 col-categori">
-                        <div className="img-Shop"><Link><img src={outDoor} /></Link></div>
+                        <div className="img-Shop"><Link to="/producs?category=outdoor"><img src={outDoor} /></Link></div>
                         <p className="text-categori">OutDoor</p>
                         <p className="text2-categori">2 product</p>
                     </div>

@@ -9,7 +9,7 @@ export default function Hero() {
                 <div className="carousel-inner">
                     <div className="carousel-item active img-hero">
                         <img src={HeroImage} className="d-block w-100" alt=""/>
-                        <Link className="btn btn-hero">Shop Now <i className="bi bi-arrow-right"></i></Link>
+                        <Link className="btn btn-hero" to="/producs">Shop Now <i className="bi bi-arrow-right"></i></Link>
                     </div>
                 </div>
             </div>

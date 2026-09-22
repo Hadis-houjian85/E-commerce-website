@@ -422,7 +422,7 @@ const products = [
     },
     {
         id: 30,
-        categostorage: "storage",
+        category: "storage",
         slug: "Modern-storage1",
         nameProduct: "Modern storage",
         price: 1000,
