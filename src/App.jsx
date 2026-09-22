@@ -10,6 +10,9 @@ import { WishProvider } from './context/WishlistContext';
 import Wishlist from './page/Wishlist';
 import LoginPage from './page/LoginPage';
 import Register from './components/account/Register';
+import Checkout from './page/Checkout';
+import About from './page/About';
+
 
 function App() {
 
@@ -27,6 +30,8 @@ function App() {
             <Route path='/wish' element={<Wishlist />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path='/register' element={<Register/>} />
+            <Route path='/checkout' element={<Checkout/>} />
+            <Route path='/about' element={<About/>} />
           </Routes>
         </WishProvider>
       </CartProvider>
